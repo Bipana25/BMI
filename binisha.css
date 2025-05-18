@@ -1,0 +1,16 @@
+
+body{
+    
+    background-color: antiquewhite;
+}
+.Calculate{
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin-right: 100%;
+    margin: 40px auto;
+    box-shadow: 10px 20px 30px black;
+}
+
