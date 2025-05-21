@@ -10,9 +10,9 @@ document.getElementById("bmiform").addEventListener("submit",
             return;
         }
         const heightInMeter =height /100;
-        const bmi=(weight /(heightInMeter *heightInMeter)).toFixed(2);
-        let category="";
-        if(bmi <18.5){
+        const bmi = (weight /(heightInMeter *heightInMeter)).toFixed(2);
+        let category= "";
+        if(bmi < 18.5){
             category ="Underweight";
         } else if (bmi < 24.9){
             category ="Normalweight";
@@ -21,5 +21,5 @@ document.getElementById("bmiform").addEventListener("submit",
         } else{
             category ="Obesity";
         }
-        result.textContent =`your BMI is ${bmi} ( ${category})`
+        result.textContent =`your BMI is ${bmi} ( ${category})`;
  });

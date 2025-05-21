@@ -1,6 +1,4 @@
-
-body{
-    
+.body{
     background-color: antiquewhite;
 }
 .Calculate{
@@ -12,5 +10,8 @@ body{
     margin-right: 100%;
     margin: 40px auto;
     box-shadow: 10px 20px 30px black;
+    background-color: antiquewhite;
 }
-
+.button{
+    background-color:gainsboro;
+}
